@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Alexandre Dias</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+<h1 id="seja bem vindo"></h1>
+<p>vamos alterar o nome usando java script</p>
+<div class="saudacao" id="mensagemsaudacao">olá visitante</div>
+<button onclick="mudar_nome()">personalizar</button>
+</div>
+<script>
+    function mudar_nome(){
+    const nome = "Alexandre";
+    document.getElementById("mensagemsaudacao").textContent="olá" + nome;
+ }
+</script>
+</body>
+</html>
